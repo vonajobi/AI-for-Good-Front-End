@@ -1,8 +1,17 @@
 body{
     background-color: rgb(238, 238, 238);
 }
+h1, h3, h2{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(144, 84, 144)
+}
+h5{
+    font-family: 'Exo 2', sans-serif;
+}
 #title{
   margin: auto;
+  width: fit-content;
+  margin-top: 50px;
 }
 #flexContainer{
     display: flex;
@@ -80,6 +89,7 @@ form{
     flex-direction: column;
     margin-right: 6px;
     justify-content: space-around;
+    gap: 10px;
 }
 #graph{
     flex-grow: 2;
@@ -90,7 +100,8 @@ form{
     border-radius: 20px;
     padding: 20px;
     background-color: #FFFF;
+    color: gray
 }
 .parameter{
-    min-height: 20vh;
+    min-height: 15vh;
 }
