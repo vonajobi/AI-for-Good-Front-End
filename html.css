@@ -93,11 +93,11 @@ p{
 .interactive{
 	background-color: #FFFF;
 	width:70vw;
-	height:400px;
+	height:700px;
 	border-radius:5px;
 	margin:auto;
 	position:relative;
-	margin-top:20vh;
+	margin-top:5vh;
 	margin-bottom:50vh;
 	border-radius: 20px;
 	padding:5px;
@@ -111,8 +111,6 @@ p{
 }
 
 .int-main{
-	display:grid;
-	grid-template-columns: 4fr 1fr;
 	margin-bottom:50px;
 }
 
@@ -136,29 +134,12 @@ p{
 	padding:20px;
 	padding-top:30px;
 	padding-left:40px;
+	height:500px;
 }
-.opBox .but{
-	margin:auto;
-	width:100px;
-}
-.opBox button{
-	background-color:lightsteelblue;
-	border-radius:3px;
-}
-form{
-	display:grid;
-	grid-template-columns:1fr 1fr 1fr;
-	grid-row-gap: 25px;
-	align-items: center;
-}
-.response{
-	background-color:#E6E6FA;
-	border-radius:20px;
-	margin:20px ;
-	text-align:center;
-}
-.life{
-	font-size:40px;
+
+iframe{
+	width:100%;
+	height:100%;
 }
 #left{
     flex-grow: 1;
