@@ -1,15 +1,31 @@
 body{
     background-color: rgb(238, 238, 238);
 }
+a{
+	color: black; 
+	text-decoration: none;
+	transition: .25s;
+}
+a:visited{
+	color: black;
+}
+a:hover{
+	color:#E6E6FA;
+}
 h1, h3, h2{
     font-family: 'Poppins', sans-serif;
     color: rgb(144, 84, 144)
 }
-h5{
+h5, body{
     font-family: 'Exo 2', sans-serif;
 }
 p{
 	font-family: 'Exo 2', sans-serif;
+}
+input[type="number"]{
+	border-radius: 5px;
+	border: 0px;
+	width: 150px;
 }
 .scroll1{
 	height:15vh;
@@ -144,6 +160,13 @@ p{
 .opBox button{
 	background-color:lightsteelblue;
 	border-radius:3px;
+	border: 0px;
+	height: 30px;
+	transition: .2s;
+}
+.opbox button:hover{
+	background-color: rgb(109, 123, 141) ;
+	color: #E6E6FA;
 }
 form{
 	display:grid;
