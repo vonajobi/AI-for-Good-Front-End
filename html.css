@@ -12,6 +12,37 @@ body{
     width: 70vw;
     margin: auto;
 }
+
+.interactive{
+	background-color: rgb(212, 212, 212);
+	width:70vw;
+	height:200px;
+	border-radius:5px;
+	display:grid;
+	grid-template-columns: 4fr 1fr;
+}
+
+.opBox{
+	background-color:grey;
+	margin:10px;
+	padding:10px;
+	padding-top:30px;
+	padding-left:40px;
+}
+form{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	grid-row-gap: 25px;
+	align-items: center;
+}
+.response{
+	background-color:grey;
+	margin:10px;
+	text-align:center;
+}
+.life{
+	font-size:40px;
+}
 #left{
     flex-grow: 1;
     display: flex;
@@ -31,5 +62,4 @@ body{
 }
 .parameter{
     min-height: 20vh;
-   
 }
