@@ -14,20 +14,50 @@ body{
 }
 
 .interactive{
-	background-color: rgb(212, 212, 212);
+	background-color: #FFFF;
 	width:70vw;
-	height:200px;
+	height:325px;
 	border-radius:5px;
+	margin:auto;
+	margin-top:50px;
+	border-radius: 20px;
+	padding:5px;
+}
+
+.int-main{
 	display:grid;
 	grid-template-columns: 4fr 1fr;
+	margin-bottom:50px;
+}
+
+.int-text{
+		text-align:center;
+/*		margin-top:10px;*/
+}
+
+.int-text p{
+	margin-bottom:0px;
+}
+
+.int-text h3{
+	margin-top:20px;
 }
 
 .opBox{
-	background-color:grey;
-	margin:10px;
-	padding:10px;
+	background-color:lightgrey;
+	border-radius:20px;
+	margin:20px;
+	padding:20px;
 	padding-top:30px;
 	padding-left:40px;
+}
+.opBox .but{
+	margin:auto;
+	width:100px;
+}
+.opBox button{
+	background-color:lightsteelblue;
+	border-radius:3px;
 }
 form{
 	display:grid;
@@ -36,8 +66,9 @@ form{
 	align-items: center;
 }
 .response{
-	background-color:grey;
-	margin:10px;
+	background-color:lightgrey;
+	border-radius:20px;
+	margin:20px ;
 	text-align:center;
 }
 .life{

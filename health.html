@@ -7,6 +7,7 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="html.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </head>
 <body>
     <div id="title"><h2>Heart Disease</h2></div>
@@ -22,58 +23,69 @@
         </div>
     </div>
     <div class="interactive">
-        <div class="opBox">
-            <form>
-                <div class="option">
-                    <label for="in1">Age</label>
-                    <input type="number" step="0.01" id="in1">
-                </div>
-
-                <div class="option">
-                    <label for="in1">Sex</label>
-                    <input type="number" step="0.01" id="in1">
-                </div>
-
-                <div class="option">
-                    <label for="in1">Ex.</label>
-                    <input type="number" step="0.01" id="in1">
-                </div>
-
-                <div class="option">
-                    <label for="in1">Ex.</label>
-                    <input type="number" step="0.01" id="in1">
-                </div>
-
-                <div class="option">
-                    <label for="in1">Ex.</label>
-                    <input type="number" step="0.01" id="in1">
-                </div>
-
-                <div class="option">
-                    <label for="in1">Ex.</label>
-                    <input type="number" step="0.01" id="in1">
-                </div>
-
-                <div class="option">
-                    <label for="in1">Ex.</label>
-                    <input type="number" step="0.01" id="in1">
-                </div>
-
-                <div class="option">
-                    <label for="in1">Ex.</label>
-                    <input type="number" step="0.01" id="in1">
-                </div>
-
-                <div class="option">
-                    <label for="in1">Ex.</label>
-                    <input type="number" step="0.01" id="in1">
-                </div>
-            </form>
+        <div class="int-text">
+        <h3>Try it yourself!</h3>  
+        <p>Fill in the form below to find out how long the model predicts life expectancy would be!</p>
         </div>
-        <div class="response">
-            <h3>Life Expectancy:</h3>
-            <p class="life">-</p>
+        <div class="int-main">
+            <div class="opBox">
+                <form>
+                    <div class="option">
+                        <label for="in1">Age</label>
+                        <input type="number" step="0.01" id="in0">
+                    </div>
+
+                    <div class="option">
+                        <label for="in1">Sex</label>
+                        <input type="number" step="0.01" id="in1">
+                    </div>
+
+                    <div class="option">
+                        <label for="in1">Ex.</label>
+                        <input type="number" step="0.01" id="in2">
+                    </div>
+
+                    <div class="option">
+                        <label for="in1">Ex.</label>
+                        <input type="number" step="0.01" id="in3">
+                    </div>
+
+                    <div class="option">
+                        <label for="in1">Ex.</label>
+                        <input type="number" step="0.01" id="in4">
+                    </div>
+
+                    <div class="option">
+                        <label for="in1">Ex.</label>
+                        <input type="number" step="0.01" id="in5">
+                    </div>
+
+                    <div class="option">
+                        <label for="in1">Ex.</label>
+                        <input type="number" step="0.01" id="in6">
+                    </div>
+
+                    <div class="option">
+                        <label for="in1">Ex.</label>
+                        <input type="number" step="0.01" id="in7">
+                    </div>
+
+                    <div class="option">
+                        <label for="in1">Ex.</label>
+                        <input type="number" step="0.01" id="in8">
+                    </div>
+                </form>
+                <div class="but">
+                    <button class="submit">SUBMIT</button>
+                </div>
+            </div>
+            <div class="response">
+                <h3>Life Expectancy:</h3>
+                <p class="life">-</p>
+            </div>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
