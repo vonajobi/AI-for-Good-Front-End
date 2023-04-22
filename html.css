@@ -27,6 +27,9 @@ input[type="number"]{
 	border: 0px;
 	width: 150px;
 }
+img{
+	border-radius:5px;
+}
 .scroll1{
 	height:15vh;
 	width:100%;
@@ -55,7 +58,6 @@ input[type="number"]{
 #flexContainer{
     display: flex;
     flex-direction: row;
-    
     background-color: rgb(238, 238, 238);
     width: 70vw;
     margin: auto;
@@ -157,17 +159,21 @@ iframe{
 	height:100%;
 }
 #left{
-    flex-grow: 1;
+/*    flex-grow: 1;*/
     display: flex;
     flex-direction: column;
     margin-right: 6px;
-    justify-content: space-around;
+    justify-content: center;
     gap: 10px;
 }
 #graph{
-    flex-grow: 2;
+    flex-grow: 5;
     margin-left: 6px;
     background-color: bisque;
+    background-image:url(model.jpg);
+    background-size:150%;
+   	background-position: -150px -50px;
+    background-repeat:no-repeat;
 }
 #graph, .parameter{
     border-radius: 20px;
@@ -177,4 +183,7 @@ iframe{
 }
 .parameter{
     min-height: 15vh;
+    padding-left:70px;
+    padding-right:70px;
+    width:200px;
 }
