@@ -1,0 +1,12 @@
+#title{
+    margin: auto;
+    margin-bottom: 60px;
+    font-weight: 500;
+}
+#flexContainer{
+    display: flex;
+    flex-direction: row;
+
+    background-color: rgb(212, 212, 212);
+    width: 70vw;
+}
