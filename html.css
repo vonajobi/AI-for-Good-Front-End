@@ -1,12 +1,35 @@
+body{
+    background-color: rgb(238, 238, 238);
+}
 #title{
-    margin: auto;
-    margin-bottom: 60px;
-    font-weight: 500;
+  margin: auto;
 }
 #flexContainer{
     display: flex;
     flex-direction: row;
-
-    background-color: rgb(212, 212, 212);
+    
+    background-color: rgb(238, 238, 238);
     width: 70vw;
+    margin: auto;
+}
+#left{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 6px;
+    justify-content: space-around;
+}
+#graph{
+    flex-grow: 2;
+    margin-left: 6px;
+    background-color: bisque;
+}
+#graph, .parameter{
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #FFFF;
+}
+.parameter{
+    min-height: 20vh;
+   
 }
